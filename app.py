@@ -8,7 +8,7 @@ st.caption("افراد و گروه‌ها رو وارد کن، هزینه‌ها
 
 # ---------- مقداردهی اولیه ----------
 if "people" not in st.session_state:
-    st.session_state.people = ["سعید", "حسین", "سبحان"]
+    st.session_state.people = []
 if "groups" not in st.session_state:
     st.session_state.groups = {}
 if "expenses" not in st.session_state:
